@@ -1,0 +1,68 @@
+.where-you-want-to-be {
+  background-color: #f3f5e8;
+  padding: 0 5%;
+}
+
+.where-you-want-to-be h1 {
+  font-size: 4rem;
+  padding-top: 5%;
+  margin-bottom: 5%;
+  font-weight: 700;
+}
+
+.where-you-want-to-be .text-and-picture .text h3 {
+  font-size: 3rem;
+}
+
+.where-you-want-to-be .text-and-picture .text p {
+  font-size: 1.5rem;
+  padding-top: 5%;
+}
+
+.where-you-want-to-be .text-and-picture {
+  display: flex;
+}
+
+.where-you-want-to-be .text-and-picture img {
+  width: 50%;
+  height: 40%;
+  padding: 5%;
+  margin-top: 10%;
+}
+
+.where-you-want-to-be span {
+  color: #1cb64a;
+}
+
+@media only screen and (max-width: 440px) /* iPhone 12 */ and (orientation: portrait) {
+  .where-you-want-to-be {
+    margin: 0 5%;
+  }
+
+  .where-you-want-to-be .text-and-picture {
+    display: block;
+  }
+
+  .where-you-want-to-be h1 {
+    font-size: 2rem;
+    line-height: 0.9;
+  }
+
+  .where-you-want-to-be .text-and-picture .text h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 5%;
+  }
+
+  .where-you-want-to-be .text-and-picture .text p {
+    font-size: 0.75rem;
+    padding: 0;
+  }
+  .where-you-want-to-be .text-and-picture img {
+    width: 100%;
+  }
+
+  .where-you-want-to-be span {
+    font-size: 1.7rem;
+  }
+}

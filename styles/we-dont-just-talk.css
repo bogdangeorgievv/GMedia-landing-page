@@ -1,0 +1,53 @@
+.we-dont-just-talk {
+  background-color: black;
+}
+.we-dont-just-talk .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.we-dont-just-talk .block {
+  width: calc(33.33% - 20px);
+}
+
+.we-dont-just-talk h1 {
+  color: white;
+  font-size: 4rem;
+  font-weight: 500;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.we-dont-just-talk h3 {
+  font-weight: 500;
+  color: #d2f884;
+  font-size: 4rem;
+  text-align: left;
+}
+
+.we-dont-just-talk p {
+  color: white;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+@media only screen and (max-width: 440px) /* iPhone 12 */ and (orientation: portrait) {
+  .we-dont-just-talk .block {
+    flex: 1 1 100%; /* Flex basis: 100% for mobile */
+  }
+
+  .we-dont-just-talk h1 {
+    font-size: 2rem;
+    padding-top: 35px;
+  }
+  .we-dont-just-talk h3 {
+    font-size: 2rem;
+  }
+  .we-dont-just-talk p {
+    padding-right: 5%;
+    font-size: 1rem;
+  }
+}
