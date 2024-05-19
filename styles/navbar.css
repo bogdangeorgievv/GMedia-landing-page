@@ -1,0 +1,26 @@
+.nav-link.btn {
+  font-size: 16px;
+  font-weight: 800;
+  color: white;
+  border: 3px solid;
+  border-color: #d2f884;
+  padding: 1rem;
+}
+
+.nav-link.btn:hover {
+  background-color: #f47a36;
+  color: #f3f5e8;
+}
+
+@media only screen and (max-width: 440px) /* iPhone 12 */ and (orientation: portrait) {
+  .nav-link.btn {
+    font-size: 10px; /* Set smaller font size for mobile */
+    font-weight: 700;
+    padding: 10px; /* Optional: Adjust padding for smaller screens */
+    margin: 0 5%;
+  }
+  .navbar img {
+    width: 20%;
+    margin: 0 5%;
+  }
+}
