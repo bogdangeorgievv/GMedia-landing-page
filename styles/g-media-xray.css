@@ -1,3 +1,16 @@
+.x-ray-container {
+  background-color: black;
+  width: 100%;
+}
+
+.x-ray-container h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  color: white;
+  padding-top: 5%;
+  font-weight: 700;
+}
+
 .x-ray {
   background-color: black;
   color: #f3f5e8;
@@ -28,6 +41,24 @@
   font-size: 3.5vw;
   font-weight: 800;
   color: #d4f871;
+}
+
+@media (max-width: 850px) {
+  .x-ray-container h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .x-ray-container h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .x-ray-container h1 {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 440px) /* iPhone 12 */ {
