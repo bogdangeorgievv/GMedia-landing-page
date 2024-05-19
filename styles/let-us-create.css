@@ -1,0 +1,65 @@
+.let-us-create {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+.let-us-create .text h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: white;
+  margin: 0 20%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.let-us-create .text h3 {
+  margin: 0 15%;
+  color: white;
+  font-weight: 300;
+}
+
+.let-us-create .desktop-graph {
+  width: 80%;
+  margin: 5% 0;
+}
+
+.let-us-create .mobile-graph {
+  display: none;
+}
+
+.let-us-create .text .highlight {
+  color: #d2f884;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 440px) /* iPhone 12 */ and (orientation: portrait) {
+  .let-us-create .desktop-graph {
+    display: none;
+  }
+  .let-us-create .mobile-graph {
+    padding: 5%;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .let-us-create .text h1 {
+    font-size: 2rem;
+    margin: 0 15%;
+  }
+
+  .let-us-create .text h3 {
+    padding: 5% 0;
+    font-size: 0.75rem;
+    margin: 0 20%;
+    font-weight: 400;
+  }
+
+  .let-us-create .text .highlight {
+    color: #d2f884;
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+}
