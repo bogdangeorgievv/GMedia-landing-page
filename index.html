@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./style.css" />
     <!-- google fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,6 +24,13 @@
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
+    />
+
+    <!-- swiperjs link -->
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
 
     <title>Georgiev Media</title>
@@ -55,22 +62,403 @@
     </div>
 
     <!-- brands -->
+  
+      <h3 class="logos-section-heading">We've build landing pages for your favourite DTC brands</h3>
+      <div class="logos">
+        <div class="logos-slide">
+            <img src="assets/4plus.png" alt="logo1" />
+            <img src="assets/genius-nutrition.png" alt="logo2" />
+            <img src="assets/smart-organic.png" alt="logo3" />
+            <img src="assets/plant.png" alt="logo4" />
+            <img src="assets/fitty.png" alt="logo5" />
+            <img src="assets/sport.png" alt="logo6" />
+        </div>
+      </div>
 
-    <h3 class="logos-section-heading">
-      We've build landing pages for your favourite DTC brands
-    </h3>
-    <div class="logos">
-      <div class="logos-slide">
-        <img src="assets/4plus.png" alt="logo1" />
-        <img src="assets/genius-nutrition.png" alt="logo2" />
-        <img src="assets/smart-organic.png" alt="logo3" />
-        <img src="assets/plant.png" alt="logo4" />
-        <img src="assets/fitty.png" alt="logo5" />
-        <img src="assets/sport.png" alt="logo6" />
+    
+
+    <!-- message with numbers -->
+
+    <div class="we-dont-just-talk">
+      <h1>We don't just talk, we get results!</h1>
+      <div class="row">
+        <div class="block">
+          <h3>1000+</h3>
+          <p>Creatives we made for our clients.</p>
+        </div>
+
+        <div class="block">
+          <h3>50+</h3>
+          <p>Brands and agencies we have worked with so far.</p>
+        </div>
+
+        <div class="block">
+          <h3>100+</h3>
+          <p>Creators that make content for our brands right now.</p>
+        </div>
       </div>
     </div>
 
+    <!-- chart where you want to be -->
+
+    <div class="where-you-want-to-be">
+      <h1>
+        Our <span class="highlight">goal</span> is to help you get from where
+        you are <span class="highlight">now</span>, to where you
+        <span class="highlight">want</span> to be...
+      </h1>
+      <div class="text-and-picture">
+        <div class="text">
+          <h3>And It All Starts With CHASSM™ Strategic Planning.</h3>
+          <p>
+            CHASSM™ Strategic Planning - Our proprietary 6-stage strategic
+            planning process is specifically designed to build the roadmap for
+            you to close the gap between where you are right now and where you
+            want to be.
+          </p>
+          <p>
+            This is where everything starts at Right Hook. It's the foundational
+            platform for helping tranform our client partners into 7 & 8-figure
+            powerhouse brands.
+          </p>
+        </div>
+        <img src="assets/chart.png" alt="chart" />
+      </div>
+    </div>
+
+    <!-- let us create -->
+
+    <div id="learn-more" class="let-us-create">
+      <div class="text">
+        <h1>Here's why you should let us create for your brand</h1>
+        <h3>
+          We increase your <span class="highlight">ROAS</span> by up to
+          <span class="highlight">50%</span> as compared to tradition content
+          agencies who don't truly understand storytelling.
+        </h3>
+      </div>
+      <img class="desktop-graph" src="assets/other-agencies.png" alt="graph" />
+      <img
+        class="mobile-graph"
+        src="assets/other-agencies-vertical.png"
+        alt="graph-mobile"
+      />
+    </div>
+
+    <!-- reviews -->
+
+    <section class="testimonials">
+      <div class="testimonials-container">
+        <div class="section-header">
+          <h2 class="title">What our clients say</h2>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
+              numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum
+              quisquam eum porro a pariatur veniam.
+            </p>
+        </div>
+        <div class="testimonials-content">
+          <div class="swiper testimonials-slider js-testimonials-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide testimonials-item">
+                <div class="info">
+                
+                  <div class="text-box">
+                    <img src="./assets/me.jpg" >
+                    <h3 class="name">John Doe</h3>
+                    <span class="job">Founder at Web Developing</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p><i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolore corporis. Ut pariatur in nihil provident omnis sunt veniam deleniti.</p>
+              </div>
+    
+              <div class="swiper-slide testimonials-item">
+                <div class="info">
+                  
+                  <div class="text-box">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(17).webp" >
+                    <h3 class="name">Maggie McLoan</h3>
+                    <span class="job">Founder at Web Developing</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+              
+                <p><i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolore corporis. Ut pariatur in nihil provident omnis sunt veniam deleniti.</p>
+              </div>
+    
+              <div class="swiper-slide testimonials-item">
+                <div class="info">
+                  
+                  <div class="text-box">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(15).webp" >
+                    <h3 class="name">Alexa Horwitz</h3>
+                    <span class="job">Founder at Web Developing</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p><i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolore corporis. Ut pariatur in nihil provident omnis sunt veniam deleniti.</p>
+              </div>
+    
+              <div class="swiper-slide testimonials-item">
+                <div class="info">
+                  
+                  <div class="text-box">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" >
+                    <h3 class="name">Maggie McLoan</h3>
+                    <span class="job">Founder at Web Developing</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+              
+                <p><i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolore corporis. Ut pariatur in nihil provident omnis sunt veniam deleniti.</p>
+              </div>
+    
+              <div class="swiper-slide testimonials-item">
+                <div class="info">
+                  
+                  <div class="text-box">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(17).webp" >
+                    <h3 class="name">Maggie McLoan</h3>
+                    <span class="job">Founder at Web Developing</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+              
+                <p><i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolore corporis. Ut pariatur in nihil provident omnis sunt veniam deleniti.</p>
+              </div>
+    
+            </div>
+          </div>
+          <div class="swiper-pagination js-testimonials-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- x-ray -->
+
+    <div class="x-ray">
+      <h3>
+        GMedia&trade; <br />
+        X-Ray
+      </h3>
+      <div class="text">
+        <p><span>G</span>ather data</p>
+        <p><span>M</span>eticulous examination</p>
+        <p><span>E</span>stablish your crowd</p>
+        <p><span>D</span>rivers for growth</p>
+        <p><span>I</span>dentify acquisition strategy</p>
+        <p><span>A</span>ds</p>
+      </div>
+    </div>
+
+    <!-- gmedia-vs-others -->
+
+    <div class="gmedia-vs-others">
+      <h3>GMedia vs. others</h3>
+      <img src="./assets/gmedia-vs-others.png" alt="gmedia-vs-others" />
+      <button class="find-creator-btn">FIND YOUR CREATOR NOW</button>
+    </div>
+
+    <!-- frequently asked questions -->
+
+    <section class="frequently-asked-questions">
+      <h3>Frequently Asked Questions</h3>
+
+      <div class="faq">
+        <div class="question">
+          <h6>What services does your marketing agency offer?</h6>
+          <svg width="15" height="10" viewBox="0 0 42 25">
+            <path
+              d="M3 3L21 21L39 3"
+              stroke="white"
+              stroke-width="7"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        <div class="answer">
+          <p>
+            Our marketing agency offers a comprehensive range of services
+            including digital marketing, social media management, content
+            creation, search engine optimization (SEO), pay-per-click (PPC)
+            advertising, email marketing, and branding solutions.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="question">
+          <h6>How can your agency help my business grow?</h6>
+          <svg width="15" height="10" viewBox="0 0 42 25">
+            <path
+              d="M3 3L21 21L39 3"
+              stroke="white"
+              stroke-width="7"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        <div class="answer">
+          <p>
+            We specialize in developing tailored marketing strategies to help
+            businesses achieve their growth objectives. By leveraging our
+            expertise in various marketing channels, we can enhance your brand
+            visibility, generate leads, drive website traffic, and ultimately
+            increase your revenue.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="question">
+          <h6>What sets your agency apart from others?</h6>
+          <svg width="15" height="10" viewBox="0 0 42 25">
+            <path
+              d="M3 3L21 21L39 3"
+              stroke="white"
+              stroke-width="7"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        <div class="answer">
+          <p>
+            Our agency stands out for its creative approach, data-driven
+            strategies, and commitment to client success. We prioritize
+            understanding our clients' unique needs and goals, and we
+            continuously strive to deliver innovative and effective marketing
+            solutions.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="question">
+          <h6>How do you measure the success of marketing campaigns?</h6>
+          <svg width="15" height="10" viewBox="0 0 42 25">
+            <path
+              d="M3 3L21 21L39 3"
+              stroke="white"
+              stroke-width="7"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        <div class="answer">
+          <p>
+            We employ various key performance indicators (KPIs) such as website
+            traffic, conversion rates, engagement metrics, and return on
+            investment (ROI) to evaluate the performance of our marketing
+            campaigns. This data-driven approach allows us to optimize
+            strategies for maximum impact.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="question">
+          <h6>
+            What is the typical timeline for seeing results from your marketing
+            efforts?
+          </h6>
+          <svg width="15" height="10" viewBox="0 0 42 25">
+            <path
+              d="M3 3L21 21L39 3"
+              stroke="white"
+              stroke-width="7"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        <div class="answer">
+          <p>
+            The timeline for seeing results can vary depending on factors such
+            as the complexity of the campaign, industry competitiveness, and
+            target audience. Generally, clients can expect to see initial
+            results within a few weeks to a few months, with ongoing improvement
+            over time.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="question">
+          <h6>Do you work with businesses of all sizes and industries?</h6>
+          <svg width="15" height="10" viewBox="0 0 42 25">
+            <path
+              d="M3 3L21 21L39 3"
+              stroke="white"
+              stroke-width="7"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        <div class="answer">
+          <p>
+            Getting started is easy! Simply reach out to us through our website
+            or contact information provided, and we'll schedule a consultation
+            to discuss your marketing goals and how we can help. From there,
+            we'll work together to develop a customized strategy to drive your
+            business forward.
+          </p>
+        </div>
+      </div>
+    </section>
+<!-- ready to supercharge your spend -->
+
+<div class="supercharge-container">
+    <div class="supercharge-text">
+        
+            <h3>Ready to supercharge your Ad Spend?</h3>
+            <p class="book-a-call"> <span class="telephone">☎️</span> Book a call with Daniel Today & See why companies partner with GMedia™</p>
+            <h6>Our Performance Ad Creatives Solution</h6>
+            <p> <span class="tick">✓</span> Easy, effortless, & streamline process (you don't have to do anything)</p>
+            <p> <span class="tick">✓</span> Fast turnaround time (less than a week after product arrival)</p>
+            <p> <span class="tick">✓</span> Exceptional customer service - any issues fixed within minutes</p>
+            <p> <span class="tick">✓</span> Viral content that is brand aligned and most importantly…converts! (higher sales with more profit & higher ROAS)</p>
+            <p> <span class="tick">✓</span> Full rights to ads usage (forever!)</p>
+            <p> <span class="tick">✓</span> Creative strategy 100% managed by us </p>
+            <p> <span class="tick">✓</span> 100+ vetted content creators to choose from (all with lots of TikTok followers)</p>
+            <p> <span class="tick">✓</span> 100% risk free</p>
+        
+    </div>
+</div>
+
     <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="swiper.js">
+    </script>
   </body>
 </html>
 
