@@ -1,0 +1,79 @@
+.testimonials {
+  padding: 50px 0;
+  background-color: #f3f5e8;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.section-header .title {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: black;
+  line-height: 1.2;
+}
+
+.testimonials .section-header p {
+  padding: 3% 0;
+  font-size: 15px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.testimonials-container {
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.testimonials-item {
+  max-height: 500px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid hsl(0, 0%, 80%);
+}
+
+.testimonials-item img {
+  max-width: 80px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.testimonials-item .name {
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+  line-height: 1.2;
+}
+
+.testimonials-item .job {
+  color: black;
+}
+
+.testimonials-item p {
+  margin-top: 20px;
+  color: black;
+}
+
+.testimonials-item .rating {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #f9d71c;
+}
+
+.testimonials .swiper-pagination {
+  position: relative;
+  margin-top: 40px;
+  bottom: auto;
+}
+
+.testimonials .swiper-pagination-bullet {
+  height: 12px;
+  width: 12px;
+  background-color: black;
+}
