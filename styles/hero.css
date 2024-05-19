@@ -1,0 +1,62 @@
+.hero-section {
+  width: 100%;
+  background-color: #fdffe5;
+}
+.center-text {
+  text-align: center;
+  background-color: #fdffe5;
+  padding: 5% 5%;
+  margin: 0 10%;
+}
+
+.center-text h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding: 5% 0;
+}
+
+.center-text p {
+  font-size: 1.2rem;
+  margin: 1%;
+}
+
+.center-text .learn-more {
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+  background-color: #d2f884;
+  border: 2px solid;
+  border-color: black;
+  padding: 0 5%;
+  margin: 2%;
+}
+
+.center-text .learn-more:hover {
+  background-color: #f47a36;
+  color: #f3f5e8;
+}
+
+@media only screen and (max-width: 440px) /* iPhone 12 */ and (orientation: portrait) {
+  .hero-section {
+    padding: 10% 0;
+  }
+
+  .center-text h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 10% 0;
+  }
+
+  .center-text p {
+    font-size: 0.75rem;
+    margin: 1%;
+  }
+
+  .center-text .learn-more {
+    font-size: 1rem;
+    font-weight: 800;
+    border: 1px solid;
+    padding: 5px 2.5rem;
+    margin: 5% 0;
+  }
+}
