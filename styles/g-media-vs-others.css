@@ -11,10 +11,14 @@
   padding: 5% 0;
 }
 
+.gmedia-vs-others p {
+  color: #f3f5e8;
+}
+
 .gmedia-vs-others img {
   display: block;
   margin: 0 auto;
-  width: 70%;
+  width: 90%;
 }
 
 .gmedia-vs-others .find-creator-btn {
@@ -31,6 +35,35 @@
   background-color: #f47a36;
   border-color: #f47a36;
   color: #f3f5e8;
+}
+
+@media (max-width: 950px) {
+  .gmedia-vs-others h3 {
+    font-size: 3rem;
+  }
+  .gmedia-vs-others p {
+    padding: 0 5%;
+  }
+}
+
+@media (max-width: 720px) {
+  .gmedia-vs-others h3 {
+    font-size: 2.5rem;
+  }
+  .gmedia-vs-others p {
+    padding: 0 5%;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .gmedia-vs-others h3 {
+    font-size: 2.5rem;
+  }
+  .gmedia-vs-others p {
+    padding: 0 10%;
+    font-size: 0.7rem;
+  }
 }
 
 @media screen and (max-width: 440px) {

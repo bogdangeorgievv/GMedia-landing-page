@@ -1,18 +1,53 @@
 .hero-section {
   width: 100%;
-  background-color: #fdffe5;
   overflow: hidden;
+  position: relative;
 }
+
+
+.social-media-logos .shopify {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: -1;
+  width: 90px;
+}
+
+.social-media-logos .meta {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  z-index: -1;
+}
+
+.social-media-logos .tiktok {
+  position: absolute;
+  bottom: 25%;
+  left: 10%;
+  z-index: -1;
+}
+
+.social-media-logos .instagram {
+  position: absolute;
+  right: 10%;
+  bottom: 30%;
+  z-index: -1;
+}
+
 .center-text {
   text-align: center;
-  background-color: #fdffe5;
   padding: 5%;
   margin: 0 5%;
 }
 
+.center-text h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
 .center-text h1 {
-  color: black;
-  font-size: 3.5rem;
+  color: #151515;
+  font-size: 3rem;
   font-weight: 700;
   padding-bottom: 5px;
 }
@@ -23,18 +58,17 @@
 
 .center-text .learn-more {
   font-size: 2rem;
-  font-weight: 700;
-  color: black;
-  background-color: #d2f884;
-  border: 2px solid;
-  border-color: black;
+  font-weight: 600;
+  color: white;
+  background-color: #5271FF;
   padding: 0 5%;
   margin: 2%;
+  border-radius: 0;
 }
 
 .center-text .learn-more:hover {
-  background-color: #f47a36;
-  color: #f3f5e8;
+  background-color: #5271FF;
+  color: white;
 }
 
 @media (max-width: 950px) {
@@ -43,9 +77,13 @@
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 820px) {
+
   .center-text h1 {
     font-size: 2.5rem;
+  }
+  .center-text h2 {
+    font-size: 1rem;
   }
   .center-text p {
     font-size: 1rem;
@@ -57,17 +95,35 @@
     padding: 1% 2.5rem;
     margin: 5% 0;
   }
+  .social-media-logos .shopify {
+    width: 50px;
+  }
+  .social-media-logos .meta {
+    width: 50px;
+  }
+  .social-media-logos .tiktok {
+    width: 50px;
+    
+  }
+  .social-media-logos .instagram {
+    width: 50px;
+    
+  }
 }
 
 @media (max-width: 440px) {
   .hero-section {
-    padding: 0;
+    padding: 5% 0;
   }
 
   .center-text h1 {
     font-size: 2rem;
     font-weight: 600;
-    padding: 10% 0;
+    padding: 0;
+  }
+
+  .center-text h2 {
+    font-size: 0.7rem;
   }
 
   .center-text p {
