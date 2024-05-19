@@ -1,0 +1,58 @@
+.supercharge-container {
+  background-color: black;
+  width: 100%;
+}
+
+.supercharge-text {
+  margin: 0 15%;
+  padding: 5% 0;
+}
+
+.supercharge-text h3 {
+  font-size: 3.5vw;
+  color: #f3f5e8;
+}
+
+.supercharge-text .book-a-call {
+  text-align: center;
+  font-size: 2vw;
+  color: #f3f5e8;
+  padding: 3% 0;
+}
+.supercharge-text .telephone {
+  font-size: 2vw;
+}
+
+.supercharge-text h6 {
+  color: #d4f871;
+  font-weight: 600;
+  font-size: 2.5vw;
+  padding-bottom: 1%;
+}
+
+.supercharge-text p {
+  color: #f3f5e8;
+  font-size: 1.5vw;
+  font-weight: 300;
+}
+
+.supercharge-text .tick {
+  color: #d4f871;
+  font-size: 2vw;
+}
+
+@media screen and (max-width: 440px) {
+  .supercharge-text p {
+    font-size: 0.6rem;
+  }
+
+  .supercharge-text {
+    margin: 0 5%;
+  }
+
+  .supercharge-text h3 {
+    font-size: 1.3rem;
+    color: #f3f5e8;
+    text-align: center;
+  }
+}

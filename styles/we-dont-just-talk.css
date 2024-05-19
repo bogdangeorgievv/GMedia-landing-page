@@ -1,5 +1,6 @@
 .we-dont-just-talk {
   background-color: black;
+  overflow-x: hidden;
 }
 .we-dont-just-talk .row {
   display: flex;
@@ -7,6 +8,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 5%;
+  
 }
 
 .we-dont-just-talk .block {
