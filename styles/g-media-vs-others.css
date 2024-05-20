@@ -1,18 +1,18 @@
 .gmedia-vs-others {
-  background-color: black;
+  background-color: #151515;
   width: 100%;
   text-align: center;
 }
 
 .gmedia-vs-others h3 {
-  color: #f3f5e8;
+  color: white;
   font-size: 4rem;
   font-weight: 600;
   padding: 5% 0;
 }
 
 .gmedia-vs-others p {
-  color: #f3f5e8;
+  color: white;
 }
 
 .gmedia-vs-others img {
@@ -24,9 +24,9 @@
 .gmedia-vs-others .find-creator-btn {
   font-size: 1.2rem;
   font-weight: 600;
-  color: black;
-  background-color: #d4f871;
-  border: 2px solid black;
+  color: white;
+  background-color: #5271FF;
+  border: 2px solid #151515;
   padding: 1% 5%;
   margin: 5%;
 }
@@ -34,7 +34,7 @@
 .gmedia-vs-others .find-creator-btn:hover {
   background-color: #f47a36;
   border-color: #f47a36;
-  color: #f3f5e8;
+  color: white;
 }
 
 @media (max-width: 950px) {
