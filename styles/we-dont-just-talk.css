@@ -7,7 +7,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 5%;
+  padding: 0 5%;
 }
 
 .we-dont-just-talk .block {
@@ -18,13 +18,13 @@
   color: white;
   font-size: 4rem;
   font-weight: 500;
-  padding-top: 5%;
+  padding: 3% 0;
   text-align: center;
 }
 
 .we-dont-just-talk h3 {
   font-weight: 500;
-  color: #22B977;
+  color: #22b977;
   font-size: 3rem;
   text-align: left;
 }
@@ -94,9 +94,6 @@
     font-size: 1rem;
   }
 }
-
-
-
 
 @media (max-width: 850px) {
   .x-ray-container h1 {

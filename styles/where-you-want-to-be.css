@@ -23,7 +23,7 @@
 }
 
 .where-you-want-to-be span {
-  color: #22B977;
+  color: #22b977;
 }
 
 /* x-ray */
@@ -32,7 +32,6 @@
   background-color: white;
   width: 100%;
 }
-
 
 .x-ray-container h1 {
   text-align: center;
@@ -43,7 +42,7 @@
 }
 
 .x-ray {
-  background-color: white;  
+  background-color: white;
   display: flex;
   align-items: center;
   width: 100%;
@@ -69,15 +68,14 @@
 .x-ray .text p span {
   font-size: 40px;
   font-weight: 800;
-  color: #22B977;
-
+  color: #22b977;
 }
 
 @media (max-width: 1000px) {
   .where-you-want-to-be h1 {
     font-size: 2.5rem;
   }
-  
+
   .x-ray h3 {
     font-size: 1.5rem;
   }
@@ -133,8 +131,7 @@
   }
 }
 
-@media (max-width: 440px)  {
-
+@media (max-width: 440px) {
   .where-you-want-to-be .text-and-picture {
     display: block;
   }
@@ -163,7 +160,6 @@
     font-size: 1.7rem;
   }
 }
-
 
 @media (max-width: 440px) {
   .x-ray {

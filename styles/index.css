@@ -4,12 +4,13 @@
 @import url("brands.css");
 @import url("we-dont-just-talk.css");
 @import url("where-you-want-to-be.css");
-@import url("let-us-create.css");
+@import url("why-work-with-us.css");
 @import url("testimonials.css");
 @import url("g-media-vs-others.css");
 @import url("FAQ.css");
 @import url("ready-to-supercharge.css");
-@import url('navbar.css');
+@import url("navbar.css");
+@import url("partners.css");
 
 * {
   font-family: "Poppins", sans-serif;

@@ -1,58 +1,81 @@
 .supercharge-container {
-  background-color: black;
+  background-color: white;
   width: 100%;
 }
 
 .supercharge-text {
-  margin: 0 15%;
+  margin: 0 10%;
   padding: 5% 0;
 }
 
 .supercharge-text h3 {
-  font-size: 3.5vw;
-  color: #f3f5e8;
+  font-size: 3rem;
+  color: black;
+  text-align: center;
+  font-weight: 600;
 }
 
 .supercharge-text .book-a-call {
   text-align: center;
-  font-size: 2vw;
-  color: #f3f5e8;
+  font-size: 1.5rem;
+  color: black;
   padding: 3% 0;
-}
-.supercharge-text .telephone {
-  font-size: 2vw;
 }
 
 .supercharge-text h6 {
-  color: #d4f871;
-  font-weight: 600;
-  font-size: 2.5vw;
-  padding-bottom: 1%;
+  color: #22b977;
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding-bottom: 2%;
 }
 
 .supercharge-text p {
-  color: #f3f5e8;
-  font-size: 1.5vw;
+  color: black;
+  font-size: 1.2rem;
   font-weight: 300;
 }
 
-.supercharge-text .tick {
-  color: #d4f871;
-  font-size: 2vw;
+@media (max-width: 800px) {
+  .supercharge-text h3 {
+    font-size: 2.5rem;
+  }
+  .supercharge-text .book-a-call {
+    font-size: 1.2rem;
+  }
+  .supercharge-text h6 {
+    font-size: 2rem;
+  }
 }
 
-@media screen and (max-width: 440px) {
-  .supercharge-text p {
-    font-size: 0.6rem;
+@media (max-width: 600px) {
+  .supercharge-text {
+    margin: 0 5%;
   }
+  .supercharge-text h3 {
+    font-size: 1.5rem;
+  }
+  .supercharge-text .book-a-call {
+    font-size: 1rem;
+  }
+  .supercharge-text h6 {
+    font-size: 1.5rem;
+  }
+  .supercharge-text p {
+    font-size: 0.9rem;
+  }
+}
 
+@media (max-width: 440px) {
+  .supercharge-text .book-a-call {
+    font-size: 0.8rem;
+  }
   .supercharge-text {
     margin: 0 5%;
   }
 
   .supercharge-text h3 {
     font-size: 1.3rem;
-    color: #f3f5e8;
+    color: black;
     text-align: center;
   }
 }

@@ -1,5 +1,5 @@
 .testimonials {
-  padding: 50px 0;
+  padding: 40px 0;
   background-color: white;
 }
 
@@ -8,7 +8,7 @@
 }
 
 .section-header .title {
-  font-size: 30px;
+  font-size: 2.5rem;
   font-weight: 700;
   text-transform: capitalize;
   color: black;
@@ -16,9 +16,9 @@
 }
 
 .testimonials .section-header p {
-  padding: 3% 0;
-  font-size: 15px;
-  width: 70%;
+  padding: 3% 5%;
+  font-size: 1.2rem;
+  font-weight: 500;
   margin: 0 auto;
 }
 
@@ -29,41 +29,37 @@
 }
 
 .testimonials-item {
-  max-height: 500px;
-  background-color: hsl(0, 0%, 100%);
-  padding: 30px;
-  border-radius: 5px;
-  text-align: center;
-  border: 1px solid hsl(0, 0%, 80%);
+  background-color: white;
+  padding: 1% 2%;
+  border: 2px solid #151515;
 }
 
-.testimonials-item img {
-  max-width: 80px;
-  border-radius: 50%;
-  vertical-align: middle;
+.testimonials-item .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
 }
 
-.testimonials-item .name {
-  margin-top: 15px;
-  font-size: 24px;
-  font-weight: 600;
+.text-box i {
+  color: blue;
+  font-size: 1.8rem;
+}
+
+.text-box p {
+  font-size: 0.75rem;
+}
+
+.credentials {
+  line-height: 5px;
+  font-size: 1rem;
   color: black;
-  line-height: 1.2;
+  font-weight: 300;
 }
 
-.testimonials-item .job {
-  color: black;
-}
-
-.testimonials-item p {
-  margin-top: 20px;
-  color: black;
-}
-
-.testimonials-item .rating {
-  margin-top: 15px;
-  font-size: 14px;
-  color: #f9d71c;
+.credentials .name {
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .testimonials .swiper-pagination {
@@ -76,4 +72,20 @@
   height: 12px;
   width: 12px;
   background-color: black;
+}
+
+@media (max-width: 750px) {
+  .section-header .title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .section-header .title {
+    font-size: 2rem;
+  }
+  .testimonials .section-header p {
+    font-size: 1rem;
+    padding-bottom: 10%;
+  }
 }

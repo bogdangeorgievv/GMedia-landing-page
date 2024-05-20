@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 @keyframes slide {
   from {
     transform: translateX(0);
@@ -56,7 +55,7 @@
 
 .logos-slide {
   display: inline-block;
-  animation: 15s slide infinite linear;
+  animation: 25s slide infinite linear;
 }
 
 .logos-slide img {
@@ -79,4 +78,3 @@
     margin: 0 20px;
   }
 }
-
