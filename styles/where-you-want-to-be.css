@@ -1,43 +1,140 @@
 .where-you-want-to-be {
-  background-color: #f3f5e8;
-  padding: 0 5%;
+  background-color: white;
+  padding: 5%;
 }
 
 .where-you-want-to-be h1 {
-  font-size: 4rem;
-  padding-top: 5%;
-  margin-bottom: 5%;
-  font-weight: 700;
-}
-
-.where-you-want-to-be .text-and-picture .text h3 {
+  text-align: center;
+  color: black;
   font-size: 3rem;
-}
-
-.where-you-want-to-be .text-and-picture .text p {
-  font-size: 1.5rem;
-  padding-top: 5%;
+  margin-bottom: 5%;
+  font-weight: 600;
 }
 
 .where-you-want-to-be .text-and-picture {
   display: flex;
+  justify-content: space-between;
 }
 
 .where-you-want-to-be .text-and-picture img {
   width: 50%;
   height: 40%;
-  padding: 5%;
-  margin-top: 10%;
+  margin: auto;
 }
 
 .where-you-want-to-be span {
-  color: #1cb64a;
+  color: #22B977;
+}
+
+/* x-ray */
+
+.x-ray-container {
+  background-color: white;
+  width: 100%;
+}
+
+
+.x-ray-container h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  color: black;
+  padding-top: 5%;
+  font-weight: 600;
+}
+
+.x-ray {
+  background-color: white;  
+  color: black;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 5% 0;
+}
+
+.x-ray h3 {
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.x-ray .text {
+  margin-left: 5%;
+}
+
+.x-ray .text p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.x-ray .text p span {
+  font-size: 40px;
+  font-weight: 800;
+  color: #22B977;
+
+}
+
+@media (max-width: 1000px) {
+  .where-you-want-to-be h1 {
+    font-size: 2.5rem;
+  }
+  
+  .x-ray h3 {
+    font-size: 1.5rem;
+  }
+  .x-ray .text p {
+    font-size: 18px;
+  }
+  .x-ray .text p span {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  .where-you-want-to-be .text-and-picture {
+    flex-direction: column;
+    align-items: center;
+  }
+  .x-ray {
+    margin: 0;
+    padding: 0;
+  }
+  .x-ray h3 {
+    font-size: 2.5rem;
+  }
+  .x-ray .text p {
+    font-size: 20px;
+  }
+  .x-ray .text p span {
+    font-size: 35px;
+  }
+  .where-you-want-to-be .text-and-picture img {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 520px) {
+  .where-you-want-to-be h1 {
+    font-size: 2rem;
+  }
+  .x-ray h3 {
+    font-size: 1.5rem;
+  }
+  .x-ray .text p {
+    font-size: 15px;
+    line-height: 13px;
+  }
+  .x-ray .text p span {
+    font-size: 25px;
+  }
+  .where-you-want-to-be .text-and-picture img {
+    width: 100%;
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 440px) /* iPhone 12 */ and (orientation: portrait) {
-  .where-you-want-to-be {
-    margin: 0 5%;
-  }
 
   .where-you-want-to-be .text-and-picture {
     display: block;
@@ -49,20 +146,53 @@
   }
 
   .where-you-want-to-be .text-and-picture .text h3 {
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 600;
     padding-bottom: 5%;
   }
 
   .where-you-want-to-be .text-and-picture .text p {
-    font-size: 0.75rem;
+    font-size: 1.2rem;
     padding: 0;
   }
   .where-you-want-to-be .text-and-picture img {
     width: 100%;
+    margin: 0 0 5% 0;
   }
 
   .where-you-want-to-be span {
     font-size: 1.7rem;
+  }
+}
+
+
+@media screen and (max-width: 440px) /* iPhone 12 */ {
+  .x-ray {
+    display: block;
+    margin: 0;
+    padding: 5%;
+    text-align: center;
+  }
+
+  .x-ray h3 {
+    white-space: nowrap;
+    font-size: 2rem;
+    margin: 0;
+    padding: 5%;
+  }
+
+  .x-ray .text {
+    margin: 0;
+    text-align: left;
+    display: inline-block;
+  }
+
+  .x-ray .text p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .x-ray .text p span {
+    font-size: 2rem;
   }
 }

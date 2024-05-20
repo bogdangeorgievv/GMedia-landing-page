@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@import url("navbar.css");
 @import url("hero.css");
 @import url("brands.css");
 @import url("we-dont-just-talk.css");
@@ -11,7 +10,7 @@
 @import url("g-media-vs-others.css");
 @import url("FAQ.css");
 @import url("ready-to-supercharge.css");
-@import url('navbar2.css');
+@import url('navbar.css');
 
 * {
   font-family: "Poppins", sans-serif;

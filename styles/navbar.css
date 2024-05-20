@@ -1,26 +1,37 @@
-.nav-link.btn {
-  font-size: 16px;
-  font-weight: 800;
+.navbar-container {
+  width: 100%;
+  background-color: #151515;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-container .logo {
+  margin-left: 10%;
+}
+
+.navbar-container .logo img {
+  width: 50%;
+}
+
+.navbar-container button {
+  font-size: 0.7rem;
+  font-weight: 600;
   color: white;
   border: 3px solid;
-  border-color: #d2f884;
-  padding: 1rem;
+  border-color: #22B977;
+  background-color: #151515;
+  padding: 10px 20px ;
+  align-items: center;
+  margin: 10% 0;
+  border: 2px solid white;
 }
 
-.nav-link.btn:hover {
-  background-color: #f47a36;
-  color: #f3f5e8;
+.navbar-container button:hover {
+  background-color: #22B977;
+  border-color: #22B977;
 }
 
-@media only screen and (max-width: 440px) /* iPhone 12 */ and (orientation: portrait) {
-  .nav-link.btn {
-    font-size: 10px; /* Set smaller font size for mobile */
-    font-weight: 700;
-    padding: 10px; /* Optional: Adjust padding for smaller screens */
-    margin: 0 5%;
-  }
-  .navbar img {
-    width: 20%;
-    margin: 0 5%;
-  }
+.navbar-btn {
+  margin-right: 10%;
 }
+

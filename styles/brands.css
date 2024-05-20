@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 @keyframes slide {
   from {
     transform: translateX(0);
@@ -9,14 +16,13 @@
 
 .logos {
   overflow: hidden;
-  padding-bottom: 5%;
+  padding: 3% 0;
   background-color: white;
   white-space: nowrap;
   position: relative;
 }
 
 .logos-section-heading {
-  padding: 5% 0;
   text-align: center;
   color: black;
   font-size: 3.5vw;
@@ -50,17 +56,27 @@
 
 .logos-slide {
   display: inline-block;
-  animation: 50s slide infinite linear;
+  animation: 15s slide infinite linear;
 }
 
 .logos-slide img {
-  width: 10%;
-  margin: 0 3%;
+  width: 120px;
+  margin: 0 40px;
 }
 
-@media only screen and (max-width: 440px) {
+@media (max-width: 950px) {
   .logos-slide img {
-    width: 20%;
-    margin: 0 3%;
+    width: 110px;
   }
 }
+
+@media (max-width: 500px) {
+  .logos {
+    padding: 20px 0;
+  }
+  .logos-slide img {
+    width: 90px;
+    margin: 0 20px;
+  }
+}
+
