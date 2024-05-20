@@ -44,7 +44,6 @@
 
 .x-ray {
   background-color: white;  
-  color: black;
   display: flex;
   align-items: center;
   width: 100%;
@@ -134,7 +133,7 @@
   }
 }
 
-@media only screen and (max-width: 440px) /* iPhone 12 */ and (orientation: portrait) {
+@media (max-width: 440px)  {
 
   .where-you-want-to-be .text-and-picture {
     display: block;
@@ -166,7 +165,7 @@
 }
 
 
-@media screen and (max-width: 440px) /* iPhone 12 */ {
+@media (max-width: 440px) {
   .x-ray {
     display: block;
     margin: 0;
