@@ -30,19 +30,11 @@
 
 .partners-section h3 {
   text-align: center;
-  font-size: 3.5vw;
+  font-size: 2rem;
   color: white;
 }
 
-.partners:before,
-.partners:after {
-  position: absolute;
-  top: 0;
-  width: 25%;
-  height: 100%;
-  content: "";
-  z-index: 2;
-}
+
 
 .partners:hover .partners-slide {
   animation-play-state: paused;
