@@ -23,9 +23,9 @@
 }
 
 .we-dont-just-talk h3 {
-  font-weight: 500;
+  font-weight: 700;
   color: #22b977;
-  font-size: 3rem;
+  font-size: 3.5rem;
   text-align: left;
 }
 
@@ -79,7 +79,7 @@
 
 @media (max-width: 440px) {
   .we-dont-just-talk .block {
-    flex: 1 1 100%; /* Flex basis: 100% for mobile */
+    flex: 1 1 100%; 
   }
 
   .we-dont-just-talk h1 {
@@ -87,7 +87,7 @@
     padding-top: 35px;
   }
   .we-dont-just-talk h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .we-dont-just-talk p {
     padding-right: 5%;

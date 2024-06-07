@@ -41,7 +41,7 @@
 
 .center-text {
   text-align: center;
-  padding: 5%;
+  padding: 3% 5%;
   margin: 0 5%;
 }
 
@@ -58,7 +58,8 @@
 }
 
 .center-text p {
-  font-size: 0.9rem;
+  font-size: 1.3rem;
+  padding: 0 15%;
 }
 
 .center-text .learn-more {
@@ -119,18 +120,19 @@
   }
 
   .center-text h1 {
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-weight: 600;
-    padding: 0;
+    padding-top: 2%;
   }
 
   .center-text h2 {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 
   .center-text p {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     margin: 1%;
+    padding: 0;
   }
 
   .center-text .learn-more {
@@ -143,9 +145,17 @@
 
   .social-media-logos .tiktok {
     width: 30px;
-    bottom: 25%;
+    bottom: 28%;
   }
   .social-media-logos .instagram {
-    bottom: 25%;
+    bottom: 28%;
+  }
+  .social-media-logos .shopify {
+    top: 3%;
+    left: 3%;
+  }
+  .social-media-logos .meta {
+    top: 4%;
+    right: 4%;
   }
 }
