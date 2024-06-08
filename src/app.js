@@ -11,3 +11,5 @@ faqsRef.forEach(faq => {
 const copy = document.querySelector(".logos-slide").cloneNode(true);
 document.querySelector('.logos').appendChild(copy)
 
+const partnersCopy = document.querySelector(".partners-slide").cloneNode(true);
+document.querySelector('.partners').appendChild(partnersCopy);
