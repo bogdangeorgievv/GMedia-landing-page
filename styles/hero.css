@@ -75,8 +75,8 @@
 .center-text .learn-more:hover {
   transform: scale(1.1);
   transition: 0.2s;
-  background-color: #5271ff;
   color: white;
+  background-color: #5271ff;
 }
 
 @media (max-width: 950px) {

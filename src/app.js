@@ -23,21 +23,19 @@ document.querySelector('.logos').appendChild(copy)
 const partnersCopy = document.querySelector(".partners-slide").cloneNode(true);
 document.querySelector('.partners').appendChild(partnersCopy);
 
+document.querySelector(".nav-btn").addEventListener("click", function () {
+    this.classList.add("scaled");
 
-// change color of button when pressed on mobile or tablet
+    setTimeout(() => {
+        this.classList.remove('scaled');
+    }, 200)
+})
 
-document.addEventListener('DOMContentLoaded', function() {
-    const navButton = document.getElementById('nav-btn');
 
-    navButton.addEventListener('touchstart', function() {
-        navButton.classList.add('pressed');
-    });
+document.querySelector(".logo").addEventListener("click", function () {
+    this.classList.add("scaled");
 
-    navButton.addEventListener('touchend', function() {
-        navButton.classList.remove('pressed');
-    });
-
-    navButton.addEventListener('mouseleave', function() {
-        navButton.classList.remove('pressed');
-    });
-});
+    setTimeout(() => {
+        this.classList.remove('scaled');
+    }, 200)
+})
