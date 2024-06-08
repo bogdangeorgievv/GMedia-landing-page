@@ -61,14 +61,12 @@
     font-size: 1.5rem;
   }
   .supercharge-text p {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 440px) {
-  .supercharge-text .book-a-call {
-    font-size: 0.8rem;
-  }
+  
   .supercharge-text {
     margin: 0 5%;
   }

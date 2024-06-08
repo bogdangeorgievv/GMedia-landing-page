@@ -9,13 +9,6 @@
   color: white;
 }
 
-.gmedia-vs-others h3 {
-  color: white;
-  font-size: 2rem;
-  font-weight: 500;
-  padding: 5%;
-  line-height: 60px;
-}
 
 .gmedia-vs-others img {
   display: block;
@@ -40,12 +33,6 @@
   color: white;
 }
 
-@media (max-width: 950px) {
-  .gmedia-vs-others h3 {
-    font-size: 1.8rem;
-    line-height: 40px;
-  }
-}
 
 @media (max-width: 860px) {
   .gmedia-vs-others img {
@@ -54,34 +41,24 @@
 }
 
 @media (max-width: 720px) {
-  .gmedia-vs-others h3 {
-    font-size: 1.6rem;
-  }
   .gmedia-vs-others img {
     width: 550px;
   }
 }
 
 @media (max-width: 590px) {
-  .gmedia-vs-others h3 {
-    font-size: 1.4rem;
-    line-height: 30px;
-  }
   .gmedia-vs-others img {
     width: 450px;
   }
 }
 
 @media screen and (max-width: 460px) {
-  .gmedia-vs-others h3 {
-    font-size: 1.2rem;
-  }
   .gmedia-vs-others img {
-    
     width: 100%;
+    padding-top: 2rem;
   }
   .gmedia-vs-others .find-creator-btn {
     font-size: 1rem;
-    margin: 10%;
+    margin: 2rem;
   }
 }
