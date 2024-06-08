@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@keyframes slide {
+@keyframes slideRightToLeft {
   from {
     transform: translateX(0);
   }
@@ -55,7 +55,7 @@
 
 .logos-slide {
   display: inline-block;
-  animation: 25s slide infinite linear;
+  animation: 25s slideRightToLeft infinite linear;
 }
 
 .logos-slide img {

@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 
-@keyframes slide{
+@keyframes slideLeftToRight {
   from {
-    transform: translateX(0);
+    transform: translateX(-100%);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(0);
   }
 }
 
@@ -62,7 +62,7 @@
 
 .partners-slide {
   display: inline-block;
-  animation: 50s slide infinite linear;
+  animation: 50s slideLeftToRight infinite linear;
 }
 
 .partners-slide img {
