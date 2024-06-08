@@ -72,18 +72,23 @@
 }
 
 @media (max-width: 1000px) {
+  .where-you-want-to-be .text-and-picture {
+    flex-direction: column;
+    align-items: center;
+  }
   .where-you-want-to-be h1 {
     font-size: 2.5rem;
   }
 
-  .x-ray h3 {
-    font-size: 1.5rem;
-  }
   .x-ray .text p {
-    font-size: 18px;
+    font-size: 22px;
   }
   .x-ray .text p span {
-    font-size: 30px;
+    font-size: 40px;
+  }
+  .where-you-want-to-be .text-and-picture img {
+    width: 100%;
+    margin: auto;
   }
 }
 

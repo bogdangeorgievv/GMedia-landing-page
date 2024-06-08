@@ -81,6 +81,9 @@
 }
 
 @media (max-width: 450px) {
+  .testimonials {
+    padding: 10px 0;
+  }
   .section-header .title {
     font-size: 2rem;
   }

@@ -39,6 +39,11 @@
   border-color: #22b977;
 }
 
+.navbar-container button.pressed {
+  background-color: #22b977;
+  border-color: #22b977;
+}
+
 .navbar-btn {
   margin-right: 10%;
 }
