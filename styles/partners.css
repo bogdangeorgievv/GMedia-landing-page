@@ -76,16 +76,18 @@
 }
 
 @media (max-width: 700px) {
-  
   .partners-slide img {
     margin: 0 40px;
-    
   }
 }
 
 @media (max-width: 500px) {
+  .partners {
+    padding: 0.5rem 0 1rem 0;
+  }
   .partners-section h3 {
     font-size: 1.2rem;
+    padding-top: 1rem;
   }
   .partners-slide img {
     margin: 0 25px;
@@ -95,10 +97,5 @@
 }
 
 @media (max-width: 410px) {
-  .partners {
-    padding: 0.5rem 0 1rem 0;
-  }
-  .partners-section h3 {
-    padding-top: 1.5rem;
-  }
+  
 }

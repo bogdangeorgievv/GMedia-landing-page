@@ -31,6 +31,8 @@
   background-color: #5271ff;
   border-color: #5271ff;
   color: white;
+  transform: scale(1.1);
+  transition: 0.2s;
 }
 
 
