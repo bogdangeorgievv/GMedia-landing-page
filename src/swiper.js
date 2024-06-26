@@ -8,6 +8,9 @@ const swiper = new Swiper('.js-testimonials-slider', {
     breakpoints: {
         767: {
             slidesPerView: 3
+        },
+        550: {
+            slidesPerView: 2
         }
       },
   });
